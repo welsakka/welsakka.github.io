@@ -10,4 +10,10 @@ a:link:active, a:visited:active {
   color: (internal value);
 }
 
+.description {
+  margin-left: 40px;
+  margin-right: 650px;
+  text-align: left;
+}
+
 

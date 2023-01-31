@@ -28,12 +28,16 @@ class App extends React.Component {
         <h2>
           Software Developer
         </h2>
-        <h4>Throwing things at the wall and seeing what sticks, pasta included.</h4>
         <h3>
-          <Link link="https://www.linkedin.com/in/welsakka/" text="LinkedIn"/>
+          <Link link="https://www.linkedin.com/in/welsakka/" text=" Connect with me on LinkedIn"/>
           <br/>
-          <Link link="https://github.com/welsakka" text="Github"/>
+          <Link link="https://github.com/welsakka" text="Check out my Github"/>
+          <br/>
+          <br/>
         </h3>
+        <h4 className='description'>
+        Some of my latest projects below. Most are proof of concepts, either for personal use or for research purposes.
+        </h4>
         <ProjectContainer projects={this.state.projects}/>
       </div>
     );
