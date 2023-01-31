@@ -7,6 +7,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {
-    background-color: goldenrod;
+.card {
+}
+
+.mainGrid {
+    justify-content: center;
+
 }

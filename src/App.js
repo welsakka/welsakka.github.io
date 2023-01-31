@@ -1,6 +1,8 @@
 import './App.css';
 import React from 'react';
 import ProjectContainer from './components/ProjectContainer';
+import { style } from '@mui/system';
+import Link from './components/Link'
 
 class App extends React.Component {
 
@@ -11,10 +13,14 @@ class App extends React.Component {
         projects: [
         "Autopay",
         "Masjid Finder Application"
-        ]
+        ],
+        textStyle : {
+          textDecoration : "none",
+          color: "skyblue"
+        }
       };
   }
-  
+
   render(){
     return (
       <div className="App">
@@ -24,11 +30,10 @@ class App extends React.Component {
         </h2>
         <h4>Throwing things at the wall and seeing what sticks, pasta included.</h4>
         <h3>
-        <a href="https://www.linkedin.com/in/welsakka/">My LinkedIn</a>
-        <br/>
-        <a href="https://github.com/welsakka">My Github</a>
+          <Link link="https://www.linkedin.com/in/welsakka/" text="LinkedIn"/>
+          <br/>
+          <Link link="https://github.com/welsakka" text="Github"/>
         </h3>
-
         <ProjectContainer projects={this.state.projects}/>
       </div>
     );
