@@ -31,8 +31,9 @@ class App extends React.Component {
         <h3>
           <Link link="https://www.linkedin.com/in/welsakka/" text=" Connect with me on LinkedIn"/>
           <br/>
-          <Link link="https://github.com/welsakka" text="Check out my Github"/>
+          <Link link="https://github.com/welsakka" text="Check out my GitHub"/>
           <br/>
+          <Link link="https://www.upwork.com/freelancers/~018e92b4c1819c2c3b" text="Need development help? Show me your project on Upwork"/>
           <br/>
         </h3>
         <h4 className='description'>

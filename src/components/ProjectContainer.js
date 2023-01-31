@@ -16,7 +16,7 @@ class ProjectContainer extends React.Component{
                         backgroundColor: "lightblue"
                     }}> 
                     <CardContent className="title">
-                        <p>this is the {proj} project</p>
+                        <p>{proj}</p>
                     </CardContent>
                 </Card>
             </Grid>
