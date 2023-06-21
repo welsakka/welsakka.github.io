@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/welsakka/welsakka.github.io.git/static/css/main.d43ab470.css",
+    "main.js": "/welsakka/welsakka.github.io.git/static/js/main.9d1796b8.js",
+    "static/js/787.5809834d.chunk.js": "/welsakka/welsakka.github.io.git/static/js/787.5809834d.chunk.js",
+    "index.html": "/welsakka/welsakka.github.io.git/index.html",
+    "main.d43ab470.css.map": "/welsakka/welsakka.github.io.git/static/css/main.d43ab470.css.map",
+    "main.9d1796b8.js.map": "/welsakka/welsakka.github.io.git/static/js/main.9d1796b8.js.map",
+    "787.5809834d.chunk.js.map": "/welsakka/welsakka.github.io.git/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d43ab470.css",
+    "static/js/main.9d1796b8.js"
+  ]
+}
