@@ -1,7 +1,6 @@
 import './App.css';
 import React from 'react';
 import ProjectContainer from './components/ProjectContainer';
-import { style } from '@mui/system';
 import Link from './components/Link'
 
 class App extends React.Component {
@@ -11,13 +10,19 @@ class App extends React.Component {
     this.state = 
       { 
         projects: [
-        "Autopay",
-        "Masjid Finder Application"
+          {
+            title: "WIP: Autopay",
+            link: ""
+          },
+          {
+            title: "Yemen Ministry of Finance PoC",
+            link: "https://github.com/welsakka/yemen_pfm"
+          },
+          {
+            title: "Blog Post: The Fundamental Difference Between Swift Protocols and Java Interfaces",
+            link: "/blog"
+          }
         ],
-        textStyle : {
-          textDecoration : "none",
-          color: "skyblue"
-        }
       };
   }
 
@@ -36,6 +41,8 @@ class App extends React.Component {
           <Link link="https://www.upwork.com/freelancers/~018e92b4c1819c2c3b" text="Need development help? Show me your project on Upwork"/>
           <br/>
         </h3>
+        <br/>
+        <br/>
         <h4 className='description'>
         Some of my latest projects below. Most are proof of concepts, either for personal use or for research purposes.
         </h4>

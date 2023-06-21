@@ -1,11 +1,14 @@
 import "./ProjectContainer.css";
 import React from "react";
-import { Container } from "@mui/system";
-import { Card, CardContent, Grid } from "@mui/material";
+import { Card, CardActionArea, CardContent, Grid } from "@mui/material";
 
 class ProjectContainer extends React.Component{
+
+    handleClick = (link) => {
+        window.open(link);
+    }
     
-    containProjects = this.props.projects.map((proj) => {
+    containProjects = this.props.projects.map((project) => {
         return(
             <Grid item xs={4}>
                 <Card 
@@ -15,9 +18,13 @@ class ProjectContainer extends React.Component{
                         borderRadius: 10,
                         backgroundColor: "lightblue"
                     }}> 
-                    <CardContent className="title">
-                        <p>{proj}</p>
-                    </CardContent>
+                    <CardActionArea onClick={() => this.handleClick(project.link)}>
+                        <CardContent 
+                            className="title"
+                            sx={{fontSize: 25}}>
+                                <p>{project.title}</p>
+                        </CardContent>
+                    </CardActionArea>
                 </Card>
             </Grid>
         )
