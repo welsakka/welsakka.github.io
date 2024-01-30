@@ -7,8 +7,8 @@ class App extends React.Component {
 
   constructor(props){
     super(props);
-    this.state = 
-      { 
+    this.state =
+      {
         projects: [
           {
             title: "WIP: Autopay",
@@ -20,7 +20,7 @@ class App extends React.Component {
           },
           {
             title: "Blog Post: The Fundamental Difference Between Swift Protocols and Java Interfaces",
-            link: "/blog"
+            link: "/#/blog"
           }
         ],
       };
