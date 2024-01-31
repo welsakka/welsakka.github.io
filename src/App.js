@@ -11,8 +11,8 @@ class App extends React.Component {
       {
         projects: [
           {
-            title: "WIP: Autopay",
-            link: ""
+            title: "Whisper Speech AI React Native Project",
+            link: "https://github.com/welsakka/WhisperApiReactNative"
           },
           {
             title: "Yemen Ministry of Finance PoC",
